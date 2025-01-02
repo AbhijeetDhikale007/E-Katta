@@ -1,5 +1,5 @@
 <script lang='ts'>
-    import { Header, Wrapper } from "$lib/index.js"
+    import { Header, Wrapper, Footer } from "$lib/index.js"
 
     import './app.scss'
     import 'virtual:uno.css'
@@ -11,3 +11,4 @@
     
 </div>
 </Wrapper>
+<Footer />
