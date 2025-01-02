@@ -17,5 +17,5 @@ type Type = {
 
 export let Services: Type = [
     { Title: 'Useful Links', name1: 'Home', name2: 'About Us', name3: 'Contact Us', url1: '/', url2: '/Aboutus', url3: '/Contactus' },
-    { Title: 'Our Services', name1: 'Income Certificate', name2: 'Caste Certificate', name3: 'Pan Card', url1: '/Services', url2: '/Services', url3: '/Services' }
+    { Title: 'Our Services', name1: 'Income Certificate', name2: 'Caste Certificate', name3: 'Pan Card', name4: 'PF', url1: '/Services', url2: '/Services', url3: '/Services' }
 ]
