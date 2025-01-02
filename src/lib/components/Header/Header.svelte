@@ -2,7 +2,7 @@
     import { Ico } from '$lib/index.js'
 </script>
 
-<header class='flex flex-col place-items-center fixed absolute top-0 h-28 w-100%'>
+<header class='flex flex-col place-items-center absolute top-0 h-28 w-100%'>
     <div class='flex gap-10 items-center h-30% w-100% bg-red-600'>
         <a href='tel:+917040218626' class='flex gap-1 ml-25 color-white no-underline'>
             <Ico class='w-5' name='Phone' />
