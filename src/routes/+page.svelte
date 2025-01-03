@@ -1,5 +1,6 @@
 <script lang='ts'>
     import { Header, Wrapper, Footer } from "$lib/index.js"
+    import Services from './Services/Services.svelte'
 
     import './app.scss'
     import 'virtual:uno.css'
@@ -8,7 +9,7 @@
 <Header/>
 <Wrapper>
 <div slot='Wrapper' class='Wrapper'>
-    
+    <Services />
 </div>
 </Wrapper>
 <Footer />
