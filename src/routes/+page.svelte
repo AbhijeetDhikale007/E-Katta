@@ -1,6 +1,6 @@
 <script lang='ts'>
     import { Header, Wrapper, Footer } from "$lib/index.js"
-    import Services from './Services/Services.svelte'
+    import Services from './Services/+page.svelte'
 
     import './app.scss'
     import 'virtual:uno.css'
@@ -12,4 +12,4 @@
     <Services />
 </div>
 </Wrapper>
-<Footer />
+<!-- <Footer /> -->

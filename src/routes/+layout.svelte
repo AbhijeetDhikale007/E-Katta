@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { Snippet } from 'svelte';
     // import type { LayoutData } from './src/routes/$types.js';
-    import { Header, Footer } from '$lib/index.js'
+    import { Wrapper, Header, Footer } from '$lib/index.js'
     import './app.scss'
     import 'virtual:uno.css'
 
@@ -9,5 +9,9 @@
 </script>
 
 <Header />
-{@render children()}
+<Wrapper>
+    <main slot='Wrapper'>
+        {@render children()}
+    </main>
+</Wrapper>
 <Footer />
