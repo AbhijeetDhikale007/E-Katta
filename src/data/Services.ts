@@ -2,6 +2,8 @@ type Type =
     { Img: string, Alt: string, Title: string, Info: string }[]
 
 export let Services: Type = [
+    { Img: 'Services/Scholorship-Form.png', Alt: 'Scholorship Form', Title: 'Scholorship Form', Info: 'MahaDBT Scholorship Form' },
+    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'Police Verification', Info: 'Police Verification' },
     { Img: 'Services/Driver-License.png', Alt: 'Driving License', Title: 'Driver License', Info: 'Driver License' },
     { Img: 'Services/Food-License.png', Alt: 'Food License', Title: 'Food License', Info: 'Food License' },
     { Img: 'Services/Pan-Card.png', Alt: 'Pan Card', Title: 'Pan Card', Info: 'New Pan Card and Pan Card Correction' },
@@ -12,6 +14,6 @@ export let Services: Type = [
     { Img: 'Services/Health-Insurence.png', Alt: 'Health Insurence', Title: 'Health Insurence', Info: 'Health Insurence' },
     { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'PF Withraw', Info: 'PF Withraw' },
     { Img: 'Services/Income-Tax.png', Alt: 'Income Tax', Title: 'Income Tax Return', Info: 'Income Tax Return' },
-    { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'GST Registration', Info: 'GST Registration' },
+    { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'GST Registration and Return', Info: 'GST Registration' },
     { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'Online Forms', Info: 'All Tyoes of Online Forms' },
 ]
