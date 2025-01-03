@@ -32,3 +32,9 @@
         </nav>
     </div>
 </header>
+
+<style>
+    header {
+        border-bottom: .5px solid #000;
+    }
+</style>
