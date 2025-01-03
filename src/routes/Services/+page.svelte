@@ -8,7 +8,7 @@
         <p class='absolute top-20% text-center font-700 text-10'>Services</p>
         <div class='flex mt-20 flex-wrap items-center justify-center gap-18 py-10 w-90% min-h-100'>
         {#each Services as services}
-        <div class='ServiceCard flex flex-col gap-5 w-25% h-[42vh] text-white justify-center items-center bg-orange border-rounded-10'>
+        <div class='ServiceCard flex flex-col gap-5 w-25% h-[42vh] text-white justify-center items-center border-rounded-10'>
             <img class='w-82% h-52% rounded-2' src={services.Img} alt={services.Alt}>
             <div class='text-justify w-80%'>
                 <p class='text-7 text-start'>{services.Title}</p>
@@ -24,9 +24,10 @@
     .ServiceCard {
         box-shadow: 1px 1px 10px #000;
         transition: .5s ease;
+        background-color: rgb(255, 69, 0);
 
         img {
-            filter: drop-shadow(0 0 12px rgb(0, 0, 0, .3));
+            filter: drop-shadow(0 0 12px rgb(0, 0, 0, .5));
         }
     }
 
