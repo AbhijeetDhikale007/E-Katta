@@ -6,15 +6,15 @@
     <div class='flex gap-10 items-center h-30% w-100% bg-red-600'>
         <a href='tel:+917040218626' class='flex gap-1 ml-25 color-white no-underline'>
             <Ico class='w-5' name='Phone' />
-            <p class='text-white'>+91 70402 18626</p>
+            +91 70402 18626
         </a>
         <a href='wa.me/+917040218626' class='flex gap-1 color-white no-underline'>
             <Ico class='w-5' name='WhatsApp' />
-            <p class='text-white'>+91 70402 18626</p>
+            +91 70402 18626
         </a>
         <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-white no-underline'>
             <Ico class='w-5' name='Mail' />
-            <p class='text-white'>ekatta.online@gmail.com</p>
+            ekatta.online@gmail.com
         </a>
     </div>
     <div class='flex items-center h-70% w-100% justify-between'>
