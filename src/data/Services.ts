@@ -9,6 +9,7 @@ export let Services: Type = [
     { Img: 'Services/Vehicle-Insurence.png', Alt: 'Vehicle Insurence', Title: 'Vehicle Insurence', Info: 'Vehicle Insurence' },
     { Img: 'Services/Travel-Insurence.png', Alt: 'Travel Insurence', Title: 'Travel Insurence', Info: 'Travel Insurence' },
     { Img: 'Services/Home-Insurence.png', Alt: 'Home Insurence', Title: 'Home Insurence', Info: 'Home Insurence' },
+    { Img: 'Services/Health-Insurence.png', Alt: 'Health Insurence', Title: 'Health Insurence', Info: 'Health Insurence' },
     { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'PF Withraw', Info: 'PF Withraw' },
     { Img: 'Services/Income-Tax.png', Alt: 'Income Tax', Title: 'Income Tax Return', Info: 'Income Tax Return' },
     { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'GST Registration', Info: 'GST Registration' },
