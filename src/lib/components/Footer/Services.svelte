@@ -2,7 +2,7 @@
     import { Services } from '$data/Footer/Services.js'
 </script>
 
-<div class='flex gap-50'>
+<div class='flex flex-wrap gap-38'>
 {#each Services as services}
 <div class='flex flex-col gap-2 text-white no-underline'>
     <p class='text-6.8 text-white text-nowrap'>{services.Title}</p>
