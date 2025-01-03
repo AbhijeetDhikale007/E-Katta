@@ -5,7 +5,7 @@
 
 <Wrapper>
     <main slot='Wrapper' class='Wrapper'>
-        <p class='absolute top-20% text-center text-10'>Services</p>
+        <p class='absolute top-20% text-center font-700 text-10'>Services</p>
         <div class='flex mt-20 flex-wrap items-center justify-center gap-18 py-10 w-90% min-h-100'>
         {#each Services as services}
         <div class='ServiceCard flex flex-col gap-5 w-25% h-[42vh] text-white justify-center items-center bg-orange border-rounded-10'>
