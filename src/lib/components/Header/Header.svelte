@@ -19,7 +19,7 @@
     </div>
     <div class='flex items-center h-70% w-100% justify-between'>
         <div class='ml-48 h-100% gap-4 w-fit flex items-center'>
-            <img class='h-15 w-15' src='Ekatta.jpg' alt='Logo'>
+            <img class='Logo h-15 w-15 rounded-12' src='Ekatta.jpg' alt='Logo'>
             <h2 class=''>E-Katta</h2>
             <img class='h-8 w-12' src='Digital-India.png' alt='Logo'>
             <img class='h-8 w-12' src='My-Gov.png' alt='Logo'>
@@ -36,5 +36,9 @@
 <style>
     header {
         border-bottom: .5px solid #000;
+    }
+
+    .Logo {
+            filter: drop-shadow(0 0 10px rgb(0, 0, 0, .2));
     }
 </style>
