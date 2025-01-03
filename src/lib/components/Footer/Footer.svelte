@@ -4,8 +4,8 @@
 </script>
 
 <footer class='flex flex-col gap-5 items-center justify-center w-100% h-88 bg-red-600'>
-    <div class='flex w-80% gap-15'>
-        <img class='h-32 w-32' src="Ekatta.jpg" alt="Logo">
+    <div class='flex w-80% items-center gap-15'>
+        <img class='h-32 w-32 border-rounded-18' src="Ekatta.jpg" alt="Logo">
         <p class='text-justify text-white text-3.5'>We have done our absolute best to ensure our team is filled with only the most experienced and competent personnel available. That’s why we’re confident that everyone, from our front desk receptionists to our trusted professional tax advisors will be able to help you out every single step of the way. The way that we treat all of our customers has not been overlooked and, as a result, we have recieved a lot of positive feedback. Which, of course, pushes us to be even better.</p>
     </div>
     <div class='flex w-78%'>
