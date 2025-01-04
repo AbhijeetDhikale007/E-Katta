@@ -1,0 +1,1 @@
+export let Location: string = 'https://maps.app.goo.gl/xMPBqw8oomCHMhrt7'
