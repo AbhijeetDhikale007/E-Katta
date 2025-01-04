@@ -16,4 +16,6 @@ export let Services: Type = [
     { Img: 'Services/Income-Tax.png', Alt: 'Income Tax', Title: 'Income Tax Return', Info: 'Income Tax Return' },
     { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'GST Registration and Return', Info: 'GST Registration' },
     { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'Online Forms', Info: 'All Tyoes of Online Forms' },
+    { Img: 'Services/Passport.png', Alt: 'Passport', Title: 'Passport', Info: 'Passport' },
+    { Img: 'Services/Shop-Act.png', Alt: 'Shop Act', Title: 'Shop Act Registration', Info: 'Shop Act Registration' },
 ]
