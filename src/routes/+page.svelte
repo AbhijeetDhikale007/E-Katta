@@ -1,5 +1,5 @@
 <script lang='ts'>
-    import { Header, Wrapper, Footer } from "$lib/index.js"
+    import { Header, Footer } from "$lib/index.js"
     import Services from './Services/+page.svelte'
 
     import './app.scss'
@@ -7,9 +7,7 @@
 </script>
 
 <!-- <Header/> -->
-<Wrapper>
-<div slot='Wrapper' class='Wrapper'>
+<div class='Wrapper'>
     <Services />
 </div>
-</Wrapper>
 <!-- <Footer /> -->

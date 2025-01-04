@@ -93,6 +93,10 @@
   background-image: -webkit-linear-class(90deg, transparent, rgba(0, 0, 0, .4) 50%, transparent, transparent)
 }
 
+.Wrapper {
+  @apply flex justify-center items-center min-h-[100vh] max-w-[99vw] px-5;
+}
+
 html.lenis, html.lenis body {
   height: auto;
 }
