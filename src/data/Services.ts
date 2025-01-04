@@ -18,4 +18,6 @@ export let Services: Type = [
     { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'Online Forms', Info: 'All Tyoes of Online Forms' },
     { Img: 'Services/Passport.png', Alt: 'Passport', Title: 'Passport', Info: 'Passport' },
     { Img: 'Services/Shop-Act.png', Alt: 'Shop Act', Title: 'Shop Act Registration', Info: 'Shop Act Registration' },
+    { Img: 'Services/E-Gazette.png', Alt: 'E Gazette', Title: 'E Gazette - राजपत्र', Info: 'E Gazette - राजपत्र' },
+    { Img: 'Services/AnnaSaheb.png', Alt: 'AnnaSaheb', Title: 'AnnaSaheb Patil Yojna', Info: 'AnnaSaheb Patil Yojna' },
 ]
