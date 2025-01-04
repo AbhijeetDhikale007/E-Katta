@@ -4,6 +4,8 @@ type Type =
 export let Services: Type = [
     { Img: 'Services/Scholorship-Form.png', Alt: 'Scholorship Form', Title: 'Scholorship Form', Info: 'MahaDBT Scholorship Form' },
     { Img: 'Services/Domicile.jpg', Alt: 'Domicile', Title: 'Domicile Certificate', Info: 'Domicile Certificate' },
+    { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Certificate', Title: 'Caste Certificate', Info: 'Caste Certificate' },
+    { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Validity', Title: 'Caste Validity', Info: 'Caste Validity' },
     { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'Police Verification', Info: 'Police Verification' },
     { Img: 'Services/Driver-License.png', Alt: 'Driving License', Title: 'Driver License', Info: 'Driver License' },
     { Img: 'Services/Food-License.png', Alt: 'Food License', Title: 'Food License', Info: 'Food License' },
