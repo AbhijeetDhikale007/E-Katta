@@ -1,6 +1,6 @@
 <main class='Wrapper'>
+    <p class='absolute top-20% text-center font-700 text-10'>About Us</p>
     <div class='w-85%'>
-        <p class='absolute top-20% text-center font-700 text-10'>About Us</p>
         <div class='flex items-center gap-15'>
             <div class='flex flex-col gap-6 items-center'>
                 <img class='Logo w-50 h-50 rounded-20' src='Ekatta.jpg' alt='Logo'>
@@ -13,6 +13,6 @@
 
 <style lang='scss'>
     .Logo {
-        
+
     }
 </style>
