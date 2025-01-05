@@ -3,6 +3,6 @@
 <style lang='scss'>
     iframe {
         filter: drop-shadow(0 0 10px #000);
-        @apply border-none h-130;
+        @apply border-none w-[82vw] h-130;
     }
 </style>
