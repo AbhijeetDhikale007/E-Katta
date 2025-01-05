@@ -8,7 +8,7 @@
             <Ico class='w-5' name='Phone' />
             +91 70402 18626
         </a>
-        <a href='wa.me/+917040218626' class='flex gap-1 color-white no-underline'>
+        <a href='https://wa.me/+917040218626' class='flex gap-1 color-white no-underline'>
             <Ico class='w-5' name='WhatsApp' />
             +91 70402 18626
         </a>
