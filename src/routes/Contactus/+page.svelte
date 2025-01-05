@@ -5,7 +5,7 @@
 <main class='Wrapper'>
     <p class='absolute top-20% text-center font-700 text-10'>Contact Us</p>
     <div class='Aboutus flex gap-14'>
-        <a href='tel:+917040218626' class='flex gap-1 ml-25 color-black no-underline'>
+        <a href='tel:+917040218626' class='flex gap-1 color-black no-underline'>
             <Ico class='w-20' name='Phone' />
             Phone
         </a>
