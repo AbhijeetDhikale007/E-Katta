@@ -1,10 +1,10 @@
 <script lang='ts'>
-    import { Location } from '$lib/index.js'
+    import { Heading, Location } from '$lib/index.js'
 </script>
 
+<Heading Title='About Us' />
 <div class='flex flex-col items-center py-14'>
     <div class='Wrapper'>
-        <p class='absolute top-30% text-center font-700 text-10'>About Us</p>
         <div class='w-85%'>
             <div class='flex items-center gap-15'>
                 <div class='flex flex-col gap-6 items-center'>
