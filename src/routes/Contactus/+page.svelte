@@ -1,22 +1,22 @@
 <script lang='ts'>
-    import { Ico } from '$lib/index.js'
+    import { Ico, Heading } from '$lib/index.js'
 </script>
 
-<p class='absolute top-20% text-center font-700 text-10'>Contact Us</p>
+<Heading Title='Contact Us' />
 <div class='Aboutus flex gap-14'>
-    <a href='tel:+917040218626' class='flex gap-1 color-black no-underline' target='_blank'>
+    <a href='tel:+917040218626' class='flex gap-1 color-black no-underline select-none' target='_blank'>
         <Ico class='w-20' name='Call' />
         Phone
     </a>
-    <a href='https://wa.me/+917040218626' class='flex gap-1 color-black no-underline' target='_blank'>
+    <a href='https://wa.me/+917040218626' class='flex gap-1 color-black no-underline select-none' target='_blank'>
         <Ico class='w-20' name='WhatsAppColor' />
         WhatsApp
     </a>
-    <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline' target='_blank'>
+    <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline select-none' target='_blank'>
         <Ico class='w-20' name='GMail' />
         Email
     </a>
-    <a href='https://t.me/labhadesanket' class='flex gap-1 color-black no-underline' target='_blank'>
+    <a href='https://t.me/labhadesanket' class='flex gap-1 color-black no-underline select-none' target='_blank'>
         <Ico class='w-20' name='Telegram' />
         Telegram
     </a>
