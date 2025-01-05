@@ -1,7 +1,7 @@
 <script lang='ts'>
     import { Ico } from '$lib/index.js'
     import Services from './Services.svelte'
-    import { Location } from '$data/About.js'
+    import { About } from '$data/About.js'
 </script>
 
 <footer class='flex flex-col relative bottom-0 gap-5 items-center justify-center w-100% min-h-88 py-5 bg-red-600'>
@@ -31,7 +31,9 @@
     <div class='flex justify-between items-center w-80%'>
         <div class='flex gap-2 items-center'>
             <Ico class='h-5 w-5' name='Address' />
-            <a class='text-white no-underline' href={Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
+            {#each About as about}
+            <a class='text-white no-underline' href={about.Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
+            {/each}
         </div>
         <p class='text-white'>Copyright 2025. All RIght Reserved</p>
     </div>
