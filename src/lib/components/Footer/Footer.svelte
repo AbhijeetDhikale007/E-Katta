@@ -13,15 +13,15 @@
         <Services />
         <div class='flex flex-col gap-2 text-white no-underline'>
             <p class='text-6.8 text-white text-nowrap'>Get In Touch</p>
-            <a href='tel:+917040218626' class='flex gap-1 mt-2 color-white no-underline'>
+            <a href='tel:+917040218626' class='flex gap-1 mt-2 color-white no-underline' target='_blank'>
                 <Ico class='w-5' name='Phone' />
                 +91 70402 18626
             </a>
-            <a href='wa.me/+917040218626' class='flex gap-1 color-white no-underline'>
+            <a href='wa.me/+917040218626' class='flex gap-1 color-white no-underline' target='_blank'>
                 <Ico class='w-5' name='WhatsApp' />
                 +91 70402 18626
             </a>
-            <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-white no-underline'>
+            <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-white no-underline' target='_blank'>
                 <Ico class='w-5' name='Mail' />
                 ekatta.online@gmail.com
             </a>
@@ -31,7 +31,7 @@
     <div class='flex justify-between items-center w-80%'>
         <div class='flex gap-2 items-center'>
             <Ico class='h-5 w-5' name='Address' />
-            <a class='text-white no-underline' href={Location}>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
+            <a class='text-white no-underline' href={Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
         </div>
         <p class='text-white'>Copyright 2025. All RIght Reserved</p>
     </div>
