@@ -9,13 +9,17 @@
             <Ico class='w-20' name='Phone' />
             Phone
         </a>
-        <a href='wa.me/+917040218626' class='flex gap-1 color-black no-underline'>
+        <a href='https://wa.me/+917040218626' class='flex gap-1 color-black no-underline'>
             <Ico class='w-20 invert' name='WhatsApp' />
             WhatsApp
         </a>
-        <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline'>
+        <a href='https://emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline'>
             <Ico class='w-20' name='Mail' />
             Email
+        </a>
+        <a href='https://t.me/labhadesanket' class='flex gap-1 color-black no-underline'>
+            <Ico class='w-20' name='Telegram' />
+            Telegram
         </a>
     </div>
 </main>
