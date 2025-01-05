@@ -7,7 +7,5 @@
 </script>
 
 <!-- <Header/> -->
-<div class='Wrapper'>
-    <Services />
-</div>
+<Services />
 <!-- <Footer /> -->
