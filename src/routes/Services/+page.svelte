@@ -21,7 +21,7 @@
     .ServiceCard {
         box-shadow: 1px 1px 10px #000;
         transition: .5s ease;
-        background-color: rgb(255, 69, 0);
+        background-color: rgb(20, 106, 204);
 
         img {
             filter: drop-shadow(0 0 12px rgb(0, 0, 0, .5));
