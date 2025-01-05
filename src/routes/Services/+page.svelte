@@ -4,7 +4,7 @@
 </script>
 
 <Heading Title='Services' />
-<main class='Wrapper mt-36'>
+<main class='Wrapper'>
     <div class='flex flex-wrap items-center justify-center gap-18 py-10 w-90% min-h-100'>
     {#each Services as services}
     <div class='ServiceCard flex flex-col px-4 py-4 gap-5 w-20% min-h-[38vh] text-white justify-center items-center border-rounded-4'>
