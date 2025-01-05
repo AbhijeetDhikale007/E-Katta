@@ -12,7 +12,7 @@
         <Ico class='w-20 invert' name='WhatsApp' />
         WhatsApp
     </a>
-    <a href='https://emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline' target='_blank'>
+    <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-black no-underline' target='_blank'>
         <Ico class='w-20' name='Mail' />
         Email
     </a>
