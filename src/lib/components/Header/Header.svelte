@@ -4,15 +4,15 @@
 
 <header class='flex flex-col place-items-center relative top-0 h-28 w-100%'>
     <div class='flex gap-10 items-center h-30% w-100% bg-red-600'>
-        <a href='tel:+917040218626' class='flex gap-1 ml-25 color-white no-underline'>
+        <a href='tel:+917040218626' class='flex gap-1 ml-25 color-white no-underline' target='_blank'>
             <Ico class='w-5' name='Phone' />
             +91 70402 18626
         </a>
-        <a href='https://wa.me/+917040218626' class='flex gap-1 color-white no-underline'>
+        <a href='https://wa.me/+917040218626' class='flex gap-1 color-white no-underline' target='_blank'>
             <Ico class='w-5' name='WhatsApp' />
             +91 70402 18626
         </a>
-        <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-white no-underline'>
+        <a href='emailto:ekatta.online@gmail.com' class='flex gap-1 color-white no-underline' target='_blank'>
             <Ico class='w-5' name='Mail' />
             ekatta.online@gmail.com
         </a>
