@@ -2,7 +2,7 @@
     import { Ico } from '$lib/index.js'
 </script>
 
-<main class='Wrapper'>
+<!-- <main class='Wrapper'> -->
     <p class='absolute top-20% text-center font-700 text-10'>Contact Us</p>
     <div class='Aboutus flex gap-14'>
         <a href='tel:+917040218626' class='flex gap-1 color-black no-underline' target='_blank'>
@@ -22,7 +22,7 @@
             Telegram
         </a>
     </div>
-</main>
+<!-- </main> -->
 
 <style lang='scss'>
     .Aboutus {

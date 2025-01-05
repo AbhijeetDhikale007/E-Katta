@@ -9,7 +9,7 @@
 </script>
 
 <Header />
-    <main class='Wrapper'>
-        {@render children()}
-    </main>
+<main class='Wrapper'>
+    {@render children()}
+</main>
 <Footer />
