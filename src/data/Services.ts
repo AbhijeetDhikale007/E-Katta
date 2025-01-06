@@ -38,7 +38,7 @@ export let ServicesMar: Type = [
     { Img: 'Services/Vehicle-Insurence.png', Alt: 'Vehicle Insurence', Title: 'वाहन इंशुनस', Info: 'वाहन इंशुनस' },
     { Img: 'Services/Travel-Insurence.png', Alt: 'Travel Insurence', Title: 'Travel इंशुनस', Info: 'Travel इंशुनस' },
     { Img: 'Services/Home-Insurence.png', Alt: 'Home Insurence', Title: 'घर इंशुनस', Info: 'घर इंशुनस' },
-    { Img: 'Services/Health-Insurence.png', Alt: 'Health Insurence', Title: 'Health इंशुनस', Info: 'Health इंशुनस' },
+    { Img: 'Services/Health-Insurence.png', Alt: 'Health Insurence', Title: 'हेल्थ इंशुनस', Info: 'हेल्थ इंशुनस' },
     { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'पिफ विथड्रॉ', Info: 'पिफ विथड्रॉ' },
     { Img: 'Services/Income-Tax.png', Alt: 'Income Tax', Title: 'ईंकम टॅक्स रिटर्न', Info: 'ईंकम टॅक्स रिटर्न' },
     { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'जि.ए.स्टी रजीस्टेशन आणि रिटर्न', Info: 'जि.ए.स्टी रजीस्टेशन आणि रिटर्न' },
