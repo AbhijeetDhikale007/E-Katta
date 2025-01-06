@@ -14,6 +14,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$data: 'src/data',
+			$store: 'src/Store/Store.js'
 		}
 	}
 };
