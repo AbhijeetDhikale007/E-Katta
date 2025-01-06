@@ -30,7 +30,7 @@ export let ServicesMar: Type = [
     { Img: 'Services/Domicile.jpg', Alt: 'Domicile', Title: 'डोमेसील सर्टिफिकेट', Info: 'डोमेसील सर्टिफिकेट' },
     { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Certificate', Title: 'कास्ट सर्टिफिकेट', Info: 'कास्ट सर्टिफिकेट' },
     { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Validity', Title: 'कास्ट वैधता', Info: 'कास्ट वैधता' },
-    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'पोलीस वीरिफिकेशन', Info: 'पोलीस वीरिफिकेशन' },
+    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'पोलीस व्रेरिफिकेशन', Info: 'पोलीस व्रेरिफिकेशन' },
     { Img: 'Services/Driver-License.png', Alt: 'Driving License', Title: 'वाहन लायसेंस', Info: 'वाहन लायसेंस' },
     { Img: 'Services/Food-License.png', Alt: 'Food License', Title: 'फूड लायसेंस', Info: 'फूड लायसेंस' },
     { Img: 'Services/Pan-Card.png', Alt: 'Pan Card', Title: 'पॅन कार्ड', Info: 'New पॅन कार्ड and Pan Card Correction' },
