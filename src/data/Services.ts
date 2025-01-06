@@ -24,3 +24,27 @@ export let Services: Type = [
     { Img: 'Services/E-Gazette.png', Alt: 'E Gazette', Title: 'E Gazette - राजपत्र', Info: 'E Gazette - राजपत्र' },
     { Img: 'Services/AnnaSaheb.png', Alt: 'AnnaSaheb', Title: 'AnnaSaheb Patil Yojna', Info: 'AnnaSaheb Patil Yojna' },
 ]
+
+export let ServicesMar: Type = [
+    { Img: 'Services/Scholorship-Form.png', Alt: 'Scholorship Form', Title: 'स्कॉलरशिप फॉर्म', Info: 'MahaDBT स्कॉलरशिप फॉर्म' },
+    { Img: 'Services/Domicile.jpg', Alt: 'Domicile', Title: 'डोमेसील सर्टिफिकेट', Info: 'डोमेसील सर्टिफिकेट' },
+    { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Certificate', Title: 'कास्ट सर्टिफिकेट', Info: 'कास्ट सर्टिफिकेट' },
+    { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Validity', Title: 'कास्ट वैधता', Info: 'कास्ट वैधता' },
+    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'पोलीस वीरिफिकेशन', Info: 'पोलीस वीरिफिकेशन' },
+    { Img: 'Services/Driver-License.png', Alt: 'Driving License', Title: 'वाहन लायसेंस', Info: 'वाहन लायसेंस' },
+    { Img: 'Services/Food-License.png', Alt: 'Food License', Title: 'फूड लायसेंस', Info: 'फूड लायसेंस' },
+    { Img: 'Services/Pan-Card.png', Alt: 'Pan Card', Title: 'पॅन कार्ड', Info: 'New पॅन कार्ड and Pan Card Correction' },
+    { Img: 'Services/Voter-Card.jpg', Alt: 'Voter Card', Title: 'वोटर कार्ड', Info: 'वोटर कार्ड' },
+    { Img: 'Services/Vehicle-Insurence.png', Alt: 'Vehicle Insurence', Title: 'वाहन इंशुनस', Info: 'वाहन इंशुनस' },
+    { Img: 'Services/Travel-Insurence.png', Alt: 'Travel Insurence', Title: 'Travel इंशुनस', Info: 'Travel इंशुनस' },
+    { Img: 'Services/Home-Insurence.png', Alt: 'Home Insurence', Title: 'घर इंशुनस', Info: 'घर इंशुनस' },
+    { Img: 'Services/Health-Insurence.png', Alt: 'Health Insurence', Title: 'Health इंशुनस', Info: 'Health इंशुनस' },
+    { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'पिफ विथड्रॉ', Info: 'पिफ विथड्रॉ' },
+    { Img: 'Services/Income-Tax.png', Alt: 'Income Tax', Title: 'ईंकम टॅक्स रिटर्न', Info: 'ईंकम टॅक्स रिटर्न' },
+    { Img: 'Services/GST-Registration.jpg', Alt: 'GST Registration', Title: 'जि.ए.स्टी रजीस्टेशन आणि रिटर्न', Info: 'जि.ए.स्टी रजीस्टेशन आणि रिटर्न' },
+    { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'ऑनलाइन फॉर्म', Info: 'All Tyoes of ऑनलाइन फॉर्म' },
+    { Img: 'Services/Passport.png', Alt: 'Passport', Title: 'पासपोर्ट', Info: 'पासपोर्ट' },
+    { Img: 'Services/Shop-Act.png', Alt: 'Shop Act', Title: 'शॉप ऑक्ट रजीस्टेशन', Info: 'शॉप ऑक्ट रजीस्टेशन' },
+    { Img: 'Services/E-Gazette.png', Alt: 'E Gazette', Title: 'ई गेझेट - राजपत्र', Info: 'ई गेझेट - राजपत्र' },
+    { Img: 'Services/AnnaSaheb.png', Alt: 'AnnaSaheb', Title: 'अण्णासाहेब पाटिल योजना', Info: 'अण्णासाहेब पाटिल योजना' },
+]
