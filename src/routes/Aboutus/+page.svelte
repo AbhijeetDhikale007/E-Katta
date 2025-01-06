@@ -4,12 +4,7 @@
     import { AboutEng, AboutMar } from '$data/About.js'
 
     let About: any
-    if($Lang === 'Eng'){
-        About = AboutEng
-    }
-    if($Lang === 'Mar'){
-        About = AboutMar
-    }
+    $: About = $Lang === 'Eng' ? AboutEng : AboutMar;
 </script>
 
 <Heading Title='About Us' />
@@ -28,7 +23,7 @@
         <div class='h-50 w-85% py-18 flex gap-20'>
             <img class='w-50 h-50 border-solid border-2 border-black' src={about.Photo} alt="Owner">
             <div>
-                <p class='text-8'>Owner: {about.Owner}</p>
+                <p class='text-8'>{about.Owner}</p>
             </div>
         </div>
     </div>
