@@ -2,8 +2,9 @@
     import { Ico } from '$lib/index.js'
     import { Lang } from '$store'
 
-    function LangButton() {
-
+    $Lang = 'Eng'
+    function LangButton(Name: string) {
+        $Lang = Name
     }
 </script>
 
@@ -23,7 +24,10 @@
                 ekatta.online@gmail.com
             </a>    
         </div>
-        <button class='mr-25 text-3.6 px-2 py-1 border-none rounded-1 bg-transparent hover:bg-white hover:color-black'>Marathi</button>
+        <div class='flex gap-6 mr-25 text-3.6'>
+            <button class='px-2 py-1 border-none rounded-1 bg-transparent hover:bg-white hover:color-black' on:click={() => LangButton('Eng')}>English</button>
+            <button class='px-2 py-1 border-none rounded-1 bg-transparent hover:bg-white hover:color-black' on:click={() => LangButton('Mar')}>Marathi</button>
+        </div>
     </div>
     <div class='flex items-center h-70% w-100% justify-between'>
         <div class='ml-48 h-100% gap-4 w-fit flex items-center'>

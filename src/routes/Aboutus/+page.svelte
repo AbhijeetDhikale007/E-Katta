@@ -1,6 +1,15 @@
 <script lang='ts'>
     import { Heading, Location } from '$lib/index.js'
-    import { About } from '$data/About.js'
+    import { Lang } from '$store'
+    import { AboutEng, AboutMar } from '$data/About.js'
+
+    let About: any
+    if($Lang === 'Eng'){
+        About = AboutEng
+    }
+    if($Lang === 'Mar'){
+        About = AboutMar
+    }
 </script>
 
 <Heading Title='About Us' />
