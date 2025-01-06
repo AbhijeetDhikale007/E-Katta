@@ -1,7 +1,7 @@
 type Type =
     { Img: string, Alt: string, Title: string, Info: string }[]
 
-export let Services: Type = [
+export let ServicesEng: Type = [
     { Img: 'Services/Scholorship-Form.png', Alt: 'Scholorship Form', Title: 'Scholorship Form', Info: 'MahaDBT Scholorship Form' },
     { Img: 'Services/Domicile.jpg', Alt: 'Domicile', Title: 'Domicile Certificate', Info: 'Domicile Certificate' },
     { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Certificate', Title: 'Caste Certificate', Info: 'Caste Certificate' },
@@ -30,7 +30,7 @@ export let ServicesMar: Type = [
     { Img: 'Services/Domicile.jpg', Alt: 'Domicile', Title: 'डोमेसील सर्टिफिकेट', Info: 'डोमेसील सर्टिफिकेट' },
     { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Certificate', Title: 'कास्ट सर्टिफिकेट', Info: 'कास्ट सर्टिफिकेट' },
     { Img: 'Services/Caste-Certificate.jpg', Alt: 'Caste Validity', Title: 'कास्ट वैधता', Info: 'कास्ट वैधता' },
-    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'पोलीस व्रेरिफिकेशन', Info: 'पोलीस व्रेरिफिकेशन' },
+    { Img: 'Services/Police-Verification.png', Alt: 'Police Verification', Title: 'पोलीस वेरीफिकेशन', Info: 'पोलीस वेरीफिकेशन' },
     { Img: 'Services/Driver-License.png', Alt: 'Driving License', Title: 'वाहन लायसेंस', Info: 'वाहन लायसेंस' },
     { Img: 'Services/Food-License.png', Alt: 'Food License', Title: 'फूड लायसेंस', Info: 'फूड लायसेंस' },
     { Img: 'Services/Pan-Card.png', Alt: 'Pan Card', Title: 'पॅन कार्ड', Info: 'New पॅन कार्ड and Pan Card Correction' },
