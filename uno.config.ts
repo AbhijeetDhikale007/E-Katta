@@ -26,6 +26,7 @@ export default defineConfig({
       presetWebFonts({
         fonts: {
           // Font Here
+          sans: "Figtree"
         },
       }),
     ],
