@@ -3,6 +3,7 @@
     import { Lang } from '$store'
     import { Header1, Header2Eng, Header2Mar } from '$data/Header.js'
 
+    $Lang = 'Eng'
     function LangButton(Name: string) {
         $Lang = Name
     }
