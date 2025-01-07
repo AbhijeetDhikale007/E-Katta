@@ -30,9 +30,9 @@
     <hr class='w-80%'>
     <div class='flex justify-between items-center w-80%'>
         <div class='flex gap-2 items-center'>
-            <Ico class='h-5 w-5' name='Address' />
+            <Ico class='h-5 w-5 invert' name='Address' />
             {#each AboutEng as about}
-            <a class='text-white no-underline' href={about.Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
+            <a class='text-white text-6 no-underline' href={about.Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
             {/each}
         </div>
         <p class='text-white'>Copyright 2025. All RIght Reserved</p>

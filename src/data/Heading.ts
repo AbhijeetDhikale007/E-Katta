@@ -7,5 +7,5 @@ export let HeadingEng: Type = [
 ]
 
 export let HeadingMar: Type = [
-    {Heading1: 'सुस्वागतम', Heading1Name: 'आम्ही पुरवतो त्या सेवा:', Heading2: 'सर्विसिस', Heading3: 'आमच्या बद्दल', Heading4: 'आमचा संपर्क' }
+    {Heading1: 'सुस्वागतम', Heading1Name: 'आम्ही पुरवतो त्या सेवा:', Heading2: 'सर्विसेस', Heading3: 'आमच्या बद्दल', Heading4: 'आमचा संपर्क' }
 ]
