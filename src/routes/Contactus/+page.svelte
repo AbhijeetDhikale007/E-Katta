@@ -8,8 +8,8 @@
 </script>
 
 {#each HeadingContact as heading}
-<Heading Title={heading.Heading4} />
-<div class='Wrapper'>
+<div class='flex self-start flex-col h-[40vh] gap-20'>
+    <Heading Title={heading.Heading4} />
 <div class='Aboutus flex gap-14'>
     <a href='tel:+917040218626' class='flex gap-1 color-black no-underline select-none' target='_blank'>
         <Ico class='w-20 Ico' name='Call' />
