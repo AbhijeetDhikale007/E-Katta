@@ -25,7 +25,7 @@ export default defineConfig({
       presetTypography(),
       presetWebFonts({
         fonts: {
-          // ...
+          // Font Here
         },
       }),
     ],
