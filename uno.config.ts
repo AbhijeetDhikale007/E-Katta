@@ -26,7 +26,10 @@ export default defineConfig({
       presetWebFonts({
         fonts: {
           // Font Here
-          sans: "Figtree"
+          sans: {
+            name: 'Figtree',
+            weights: [ '300', '400', '500', '600', '700']
+        }
         },
       }),
     ],
