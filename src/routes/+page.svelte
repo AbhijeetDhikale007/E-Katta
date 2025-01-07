@@ -1,9 +1,11 @@
 <script lang='ts'>
     // import { Header, Footer } from "$lib/index.js"
+    import { Lang } from '$store'
     import { Heading } from '$lib/index.js'
-    import { Services } from '$data/Services.js'
+    import { ServicesEng, ServicesMar } from '$data/Services.js'
 
-    import './app.scss'
+    let Services: any
+    $: Services = $Lang === 'Eng' ? ServicesEng : ServicesMar;
     // import 'virtual:uno.css'
 </script>
 
