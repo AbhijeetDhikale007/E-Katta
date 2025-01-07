@@ -1,16 +1,36 @@
 <script lang='ts'>
     import { Services } from '$data/Footer/Services.js'
+    import { Ico } from '$lib/index.js'
 </script>
 
-<div class='flex flex-wrap gap-38'>
+<div class='flex flex-wrap w-100% justify-between'>
 {#each Services as services}
 <div class='flex flex-col gap-2 text-white no-underline'>
     <p class='text-6.8 text-white text-nowrap'>{services.Title}</p>
-    <a class='mt-1' href={services.url1}>{services.name1}</a>
-    <a href={services.url2}>{services.name2}</a>
-    {#if services.name3}<a href={services.url3}>{services.name3}</a>{/if}
-    {#if services.name4}<a href={services.url4}>{services.name4}</a>{/if}
-    {#if services.name5}<a href={services.url5}>{services.name5}</a>{/if}
+    <a class='mt-1 flex items-center gap-2' href={services.url1}>
+        {#if services.Icon1}<Ico class='w-5' name={services.Icon1} />{/if}
+        {services.name1}
+    </a>
+    <a class='mt-1 flex items-center gap-2' href={services.url2}>
+        {#if services.Icon2}<Ico class='w-5' name={services.Icon2} />{/if}
+        {services.name2}
+    </a>
+    {#if services.name3}<a class='mt-1 flex items-center gap-2' href={services.url3}>
+        {#if services.Icon3}<Ico class='w-5' name={services.Icon3} />{/if}
+        {services.name3}
+    </a>{/if}
+    {#if services.name4}<a class='mt-1 flex items-center gap-2' href={services.url4}>
+        {#if services.Icon4}<Ico class='w-5' name={services.Icon4} />{/if}
+        {services.name4}
+    </a>{/if}
+    {#if services.name5}<a class='mt-1 flex items-center gap-2' href={services.url5}>
+        {#if services.Icon5}<Ico class='w-5' name={services.Icon5} />{/if}
+        {services.name5}
+    </a>{/if}
+    {#if services.name6}<a class='mt-1 flex items-center gap-2' href={services.url6}>
+        {#if services.Icon6}<Ico class='w-5' name={services.Icon6} />{/if}
+        {services.name6}
+    </a>{/if}
 </div>
 {/each}
 </div>
