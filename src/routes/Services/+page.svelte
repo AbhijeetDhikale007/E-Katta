@@ -1,14 +1,17 @@
 <script lang='ts'>
     import { Heading } from '$lib/index.js'
     import { Lang } from '$store'
+    import { HeadingEng, HeadingMar } from '$data/Heading.js'
     import { ServicesEng, ServicesMar } from '$data/Services.js'
 
     let Services: any
+    let ServicesHeading: any
     $: Services = $Lang === 'Eng' ? ServicesEng : ServicesMar;
-
+    $: ServicesHeading = $Lang === 'Eng' ? HeadingEng : HeadingMar;
 </script>
 
-<Heading Title='Services' />
+{#each ServicesHeading as heading}
+<Heading Title={heading.Heading2} />
 <main class='Wrapper'>
     <div class='flex flex-wrap items-center justify-center gap-18 py-10 w-90% min-h-100'>
         {#each Services as services}
@@ -22,6 +25,7 @@
     {/each}
     </div>
 </main>
+{/each}
 
 <style lang='scss'>
     .ServiceCard {

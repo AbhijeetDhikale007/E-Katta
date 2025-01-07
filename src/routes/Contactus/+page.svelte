@@ -1,8 +1,14 @@
 <script lang='ts'>
+    import { Lang } from '$store'
+    import { HeadingEng, HeadingMar } from '$data/Heading.js';
     import { Ico, Heading } from '$lib/index.js'
+
+    let HeadingContact: any
+    $: HeadingContact = $Lang === 'Eng' ? HeadingEng : HeadingMar;
 </script>
 
-<Heading Title='Contact Us' />
+{#each HeadingContact as heading}
+<Heading Title={heading.Heading4} />
 <div class='Wrapper'>
 <div class='Aboutus flex gap-14'>
     <a href='tel:+917040218626' class='flex gap-1 color-black no-underline select-none' target='_blank'>
@@ -23,6 +29,7 @@
     </a>
 </div>
 </div>
+{/each}
 
 <style lang='scss'>
     .Aboutus {

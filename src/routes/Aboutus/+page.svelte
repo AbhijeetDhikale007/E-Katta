@@ -2,12 +2,16 @@
     import { Heading, Location } from '$lib/index.js'
     import { Lang } from '$store'
     import { AboutEng, AboutMar } from '$data/About.js'
+	import { HeadingEng, HeadingMar } from '$data/Heading.js'
 
     let About: any
+    let HeadingAbout: any
     $: About = $Lang === 'Eng' ? AboutEng : AboutMar;
+    $: HeadingAbout = $Lang === 'Eng' ? HeadingEng : HeadingMar;
 </script>
 
-<Heading Title='About Us' />
+{#each HeadingAbout as heading}
+<Heading Title={heading.Heading3} />
 {#each About as about}
 <div class='flex flex-col items-center py-14'>
     <div class='Wrapper'>
@@ -29,6 +33,7 @@
     </div>
     <Location />
 </div>
+{/each}
 {/each}
 
 <style lang='scss'>
