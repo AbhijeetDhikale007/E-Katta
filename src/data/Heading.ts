@@ -3,7 +3,7 @@ type Type = [
 ]
 
 export let HeadingEng: Type = [
-    {Heading1: 'Welcome', Heading1Name: 'Services We Provide:', Heading2: 'Services', Heading3: 'About Us', Heading4: 'Contact Us' }
+    {Heading1: 'Welcome To Ekatta Site', Heading1Name: 'Services We Provide:', Heading2: 'Services', Heading3: 'About Us', Heading4: 'Contact Us' }
 ]
 
 export let HeadingMar: Type = [
