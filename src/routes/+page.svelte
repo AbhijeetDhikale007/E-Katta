@@ -17,13 +17,13 @@
 {#each HeadingTitle as heading }
 <Heading Title={heading.Heading1} />
 <div class='grid w-88%'>
-    <p class='text-6'>{heading.Heading1Name}</p>
-    <div class='flex flex-wrap w-80% justify-self-center'>
-        <ol>
+    <p class='text-8 mt-10'>{heading.Heading1Name}</p>
+    <div class='flex flex-wrap text-6 py-12 w-80% justify-self-center'>
+        <ul style="list-style-type:square;">
             {#each Services as S}
-            <li class=''>{S.Title}</li>
+            <li>{S.Title}</li>
             {/each}
-        </ol>
+        </ul>
     </div>
 </div>
 {/each}
