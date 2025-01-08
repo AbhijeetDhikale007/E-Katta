@@ -1,5 +1,5 @@
 <script lang='ts'>
-    import { Services } from '$data/Footer/Services.js'
+    import { Services } from '$data/FooterServices.js'
     import { Ico } from '$lib/index.js'
 </script>
 
