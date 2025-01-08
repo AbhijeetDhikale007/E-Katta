@@ -2,12 +2,18 @@
     import { Ico } from '$lib/index.js'
     import Services from './Services.svelte'
     import { AboutEng } from '$data/About.js'
+    import { Lang } from '$store'
+    import { FooterEng, FooterMar } from '$data/Footer.js'
+
+    let Footer: any
+    $: Footer = $Lang === 'Eng' ? FooterEng : FooterMar;
 </script>
 
+{#each Footer as footer}
 <footer class='flex flex-col relative bottom-0 gap-5 items-center justify-center w-100% min-h-88 py-5 bg-red-600'>
     <div class='flex w-80% items-center gap-15'>
-        <img class='h-32 w-32 border-rounded-18' src="Ekatta.jpg" alt="Logo">
-        <p class='text-justify text-white text-3.5'>We have done our absolute best to ensure our team is filled with only the most experienced and competent personnel available. That’s why we’re confident that everyone, from our front desk receptionists to our trusted professional tax advisors will be able to help you out every single step of the way. The way that we treat all of our customers has not been overlooked and, as a result, we have recieved a lot of positive feedback. Which, of course, pushes us to be even better.</p>
+        <img class='h-32 w-32 border-rounded-18' src={footer.Logo} alt="Logo">
+        <p class='text-justify text-white text-3.5'>{footer.Info}</p>
     </div>
     <div class='flex w-78%'>
         <Services />
@@ -17,12 +23,13 @@
         <div class='flex gap-2 items-center'>
             <Ico class='h-5 w-5 invert' name='Address' />
             {#each AboutEng as about}
-            <a class='text-white text-5.8 no-underline' href={about.Location} target='_blank'>Behind Ganapati Temple, Adgaon, Nashik, Maharashtra - 422003</a>
+            <a class='text-white text-5.8 no-underline' href={about.Location} target='_blank'>{footer.Location}</a>
             {/each}
         </div>
-        <p class='text-white'>Copyright 2025. All RIght Reserved</p>
+        <p class='text-white'>{footer.Copyright}</p>
     </div>
 </footer>
+{/each}
 
 <style lang='scss'>
     footer {
