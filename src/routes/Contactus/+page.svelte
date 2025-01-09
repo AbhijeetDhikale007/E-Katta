@@ -9,9 +9,9 @@
 </script>
 
 {#each HeadingContact as heading}
-<div class='flex self-start flex-col h-fit gap-20'>
+<div class='flex self-start flex-col h-fit gap-10 md:gap-20'>
     <Heading Title={heading.Heading4} />
-    <div class='Aboutus justify-center flex gap-14'>
+    <div class='Aboutus justify-center flex flex-wrap gap-4 md:gap-12 lg:gap-14'>
         <a href='tel:+917040218626' class='flex gap-1 color-black no-underline select-none' target='_blank'>
             <Ico class='w-20 Ico' name='Call' />
             Phone
@@ -29,7 +29,7 @@
             Telegram
         </a>
     </div>
-    <div class='self-end'>
+    <div class='self-end w-100% mb-10 flex justify-center'>
         <Location />
     </div>
 </div>

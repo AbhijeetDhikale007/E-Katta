@@ -13,8 +13,8 @@
 {#each HeadingAbout as heading}
 <Heading Title={heading.Heading3} />
 {#each About as about}
-<div class='flex flex-col items-center max-w-[100vw] md:max-w-[99vw] md:py-14'>
-    <div class='Wrapper'>
+<div class='flex flex-col items-center max-w-[100vw] md:max-w-[99vw] py-8 md:py-14'>
+    <div class='grid justify-items-center items-center max-w-[99vw] px-5'>
         <div class='w-85%'>
             <div class='flex items-center gap-2 md:gap-15'>
                 <div class='flex flex-col md:gap-6 items-center'>
@@ -23,11 +23,11 @@
                 </div>
                 <p class='text-2 md:text-6 text-justify'>{about.Info}</p>
             </div>
-        </div>
-        <div class='h-50 w-85% py-2 md:py-18 flex gap-4 md:gap-20'>
-            <img class=' w-18 h-18 md:w-50 md:h-50 border-solid border-2 border-black' src={about.Photo} alt="Owner">
-            <div>
-                <p class='text-3 md:text-8'>{about.Owner}</p>
+            <div class='h-50 items-center w-85% py-2 md:py-18 flex gap-4 md:gap-20'>
+                <img class=' w-18 h-18 md:w-50 md:h-50 border-solid border-2 border-black' src={about.Photo} alt="Owner">
+                <div>
+                    <p class='text-3 md:text-8'>{about.Owner}</p>
+                </div>
             </div>
         </div>
     </div>
