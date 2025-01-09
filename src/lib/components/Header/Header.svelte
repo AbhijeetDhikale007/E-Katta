@@ -27,7 +27,7 @@
     {#each Header1 as header1}
     <div class='flex justify-between items-center text-2 md:text-3 lg:text-4 xl:text-4 2xl:text-4 text-nowrap h-30% w-100% bg-red-600'>
         <div class='flex gap-2 md:gap-8 lg:gap-10 xl:gap-10 2xl:gap-12'>
-            <a href={header1.NumbLink} class='flex items-center gap-1 lg:ml-24 xl:ml-25 color-white no-underline' target='_blank'>
+            <a href={header1.NumbLink} class='flex items-center gap-1 md:ml-12 lg:ml-23 xl:ml-24 2xl:mf-25 color-white no-underline' target='_blank'>
                 <Ico class='w-3 md:w-4 lg:w-5 xl:w-5 2xl:w-6' name='Phone' />
                 {header1.Numb}
             </a>
@@ -40,7 +40,7 @@
                 {header1.Email}
             </a>    
         </div>
-        <div class='flex gap-2 md:gap-3 lg:gap-4 xl:gap-6 2xl:mr-25'>
+        <div class='flex gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 md:mr-12 lg:mr-23 xl:mr-24 2xl:mr-25'>
             <button class='px-2 text-2 md:text-3 lg:text-4 lg:text-4 2xl:text-4 py-1 border-none rounded-1 bg-transparent hover:bg-white hover:color-black' on:click={() => LangButton('Eng')}>{header1.Lang1}</button>
             <button class='px-2 text-2 md:text-3 lg:text-4 lg:text-4 2xl:text-4 py-1 border-none rounded-1 bg-transparent hover:bg-white hover:color-black' on:click={() => LangButton('Mar')}>{header1.Lang2}</button>
         </div>
