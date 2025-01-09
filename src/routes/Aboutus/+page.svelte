@@ -24,10 +24,10 @@
                 <p class='text-2 md:text-6 text-justify'>{about.Info}</p>
             </div>
         </div>
-        <div class='h-50 w-85% py-18 flex gap-20'>
-            <img class='w-50 h-50 border-solid border-2 border-black' src={about.Photo} alt="Owner">
+        <div class='h-50 w-85% py-2 md:py-18 flex gap-4 md:gap-20'>
+            <img class=' w-18 h-18 md:w-50 md:h-50 border-solid border-2 border-black' src={about.Photo} alt="Owner">
             <div>
-                <p class='text-8'>{about.Owner}</p>
+                <p class='text-3 md:text-8'>{about.Owner}</p>
             </div>
         </div>
     </div>
