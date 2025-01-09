@@ -54,6 +54,7 @@
             <img class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' src={header2.Logo1} alt='Logo2'>
             <img class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' src={header2.Logo2} alt='Logo3'>
         </div>
+        <button class='Menu-Button md:hidden w-10 h-10' on:click={() => (MenuHandler())}><Ico class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' name='Menu' /></button>
         <nav class='hidden md:flex lg:flex xl:flex 2xl:flex md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
             <a class='Button' href={header2.Button1Link}>{header2.Button1}</a>
             <a class='Button' href={header2.Button2Link}>{header2.Button2}</a>
@@ -61,15 +62,13 @@
             <a class='Button' href={header2.Button4Link}>{header2.Button4}</a>
         </nav>
         {#if isOpen == true}
-        <div class='Menu-Wrapper'>
-            <div class='Menu'>
-                <nav class='flex md:hidden lg:flex xl:hidden 2xl:hidden md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
-                    <a class='Button' href={header2.Button1Link}>{header2.Button1}</a>
-                    <a class='Button' href={header2.Button2Link}>{header2.Button2}</a>
-                    <a class='Button' href={header2.Button3Link}>{header2.Button3}</a>
-                    <a class='Button' href={header2.Button4Link}>{header2.Button4}</a>
-                </nav>
-            </div>
+        <div class='bg-white text-black fixed flex top-18 left-0 w-[100vw] h-[100vh] z-1'>
+            <nav class='flex flex-col w-100% md:hidden lg:hidden xl:hidden 2xl:hidden md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
+                <a class='Button-Black' href={header2.Button1Link}>{header2.Button1}</a>
+                <a class='Button-Black' href={header2.Button2Link}>{header2.Button2}</a>
+                <a class='Button-Black' href={header2.Button3Link}>{header2.Button3}</a>
+                <a class='Button-Black' href={header2.Button4Link}>{header2.Button4}</a>
+            </nav>
         </div>
         {/if}
     </div>
@@ -79,6 +78,20 @@
 <style>
     header {
         border-bottom: .5px solid #000;
+
+        .Menu-Wrapper {
+            animation: MenuAnimation ease-in-out .8s;
+        }
+
+        @keyframes MenuAnimation {
+          0% {
+              top: -30vh;
+          }
+
+          100% {
+              @apply top-14;
+          }
+        }
     }
 
     .Logo {
