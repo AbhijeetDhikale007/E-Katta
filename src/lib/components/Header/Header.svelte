@@ -60,13 +60,18 @@
             <a class='Button' href={header2.Button3Link}>{header2.Button3}</a>
             <a class='Button' href={header2.Button4Link}>{header2.Button4}</a>
         </nav>
-        
-        <nav class='hidden md:flex lg:flex xl:flex 2xl:flex md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
-            <a class='Button' href={header2.Button1Link}>{header2.Button1}</a>
-            <a class='Button' href={header2.Button2Link}>{header2.Button2}</a>
-            <a class='Button' href={header2.Button3Link}>{header2.Button3}</a>
-            <a class='Button' href={header2.Button4Link}>{header2.Button4}</a>
-        </nav>
+        {#if isOpen == true}
+        <div class='Menu-Wrapper'>
+            <div class='Menu'>
+                <nav class='flex md:hidden lg:flex xl:hidden 2xl:hidden md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
+                    <a class='Button' href={header2.Button1Link}>{header2.Button1}</a>
+                    <a class='Button' href={header2.Button2Link}>{header2.Button2}</a>
+                    <a class='Button' href={header2.Button3Link}>{header2.Button3}</a>
+                    <a class='Button' href={header2.Button4Link}>{header2.Button4}</a>
+                </nav>
+            </div>
+        </div>
+        {/if}
     </div>
     {/each}
 </header>
