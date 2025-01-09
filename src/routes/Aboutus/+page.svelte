@@ -13,15 +13,15 @@
 {#each HeadingAbout as heading}
 <Heading Title={heading.Heading3} />
 {#each About as about}
-<div class='flex flex-col items-center py-14'>
+<div class='flex flex-col items-center max-w-[100vw] md:max-w-[99vw] md:py-14'>
     <div class='Wrapper'>
         <div class='w-85%'>
-            <div class='flex items-center gap-15'>
-                <div class='flex flex-col gap-6 items-center'>
-                    <img class='Logo w-50 h-50 rounded-25' src={about.Logo} alt='Logo'>
-                    <p class='Brand text-11'>{about.Title}</p>
+            <div class='flex items-center gap-2 md:gap-15'>
+                <div class='flex flex-col md:gap-6 items-center'>
+                    <img class='Logo w-18 h-18 md:w-50 md:h-50 rounded-25' src={about.Logo} alt='Logo'>
+                    <p class='Brand md:text-11'>{about.Title}</p>
                 </div>
-                <p class='text-6 text-justify'>{about.Info}</p>
+                <p class='text-2 md:text-6 text-justify'>{about.Info}</p>
             </div>
         </div>
         <div class='h-50 w-85% py-18 flex gap-20'>
