@@ -19,7 +19,7 @@
         <Services />
     </div>
     <hr class='w-80%'>
-    <div class='flex justify-between items-center w-88% md:w-80%'>
+    <div class='flex justify-between items-center gap-6 md:gap-0 w-88% md:w-80%'>
         <div class='flex gap-2 items-center'>
             <Ico class='h-5 w-5 invert' name='Address' />
             {#each AboutEng as about}
