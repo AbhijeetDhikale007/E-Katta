@@ -13,16 +13,16 @@
 {#each ServicesHeading as heading}
 <Heading Title={heading.Heading2} />
 <main class='Wrapper'>
-    <div class='flex flex-wrap items-center justify-center gap-18 py-10 w-90% min-h-100'>
+    <div class='flex flex-wrap items-center justify-center gap-4 md:gap-18 py-10 w-100% md:w-90% min-h-100'>
         {#each Services as services}
-        <div class='ServiceCard flex flex-col px-4 py-4 gap-5 w-20% min-h-[38vh] text-white justify-center items-center border-rounded-4'>
-        <img class='w-94% min-h-20vh rounded-2' src={services.Img} alt={services.Alt}>
-        <div class='text-center min-h-10vh w-90%'>
-            <p class='text-8'>{services.Title}</p>
-            <!-- <p>{services.Info}</p> -->
+        <div class='ServiceCard flex flex-col p-2 md:p-4 gap-3 md:gap-5 w-32% min-h-[5vh] md:w-20% md:min-h-[38vh] text-white justify-center items-center rounded-2 md:rounded-4'>
+            <img class='w-94% md:min-h-20vh rounded-2' src={services.Img} alt={services.Alt}>
+            <div class='text-center min-h-5vh md:min-h-10vh w-90%'>
+                <p class='md:text-8'>{services.Title}</p>
+                <!-- <p>{services.Info}</p> -->
+            </div>
         </div>
-    </div>
-    {/each}
+        {/each}
     </div>
 </main>
 {/each}
