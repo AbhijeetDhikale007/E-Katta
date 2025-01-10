@@ -28,7 +28,7 @@ export default defineConfig({
           // Font Here
           sans: {
             name: 'Figtree',
-            weights: [ '300', '400', '500', '600', '700']
+            weights: [ '300', '400', '500', '600', '700' ]
         }
         },
       }),
