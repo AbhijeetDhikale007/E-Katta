@@ -18,7 +18,7 @@
         <div class='ServiceCard flex flex-col p-2 md:p-4 gap-3 md:gap-5 w-32% min-h-[5vh] md:w-20% md:min-h-[38vh] text-white justify-center items-center rounded-2 md:rounded-4'>
             <img class='w-94% md:min-h-20vh rounded-2' src={services.Img} alt={services.Alt}>
             <div class='text-center min-h-5vh md:min-h-10vh w-90%'>
-                <p class='md:text-8'>{services.Title}</p>
+                <p class='md:text-5 lg:text-8'>{services.Title}</p>
                 <!-- <p>{services.Info}</p> -->
             </div>
         </div>
