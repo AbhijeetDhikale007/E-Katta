@@ -52,14 +52,14 @@
     {/each}
     {#each Header2 as header2}
     <div class='flex items-center h-70% w-100% justify-between'>
-        <div class='ml-2 md:ml-2 lg:ml-44 xl:ml-46 2xl:ml-48 h-100% gap-4 w-fit flex items-center'>
+        <div class='ml-2 md:ml-8 lg:ml-44 xl:ml-46 2xl:ml-48 h-100% gap-4 w-fit flex items-center'>
             <img class='Logo h-10 w-10 md:h-13 md:w-13 2xl:h-15 2xl:w-15 rounded-12' src={header2.Logo} alt='Logo1'>
             <h2 class='text-nowrap'>{header2.Title}</h2>
             <img class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' src={header2.Logo1} alt='Logo2'>
             <img class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' src={header2.Logo2} alt='Logo3'>
         </div>
         <button class='md:hidden w-10 h-10 mr-2 bg-transparent invert border-none border-white border-solid border-1 rounded-2 justify-center items-center flex' on:click={() => (MenuHandler())}><Ico class='h-4 w-8 md:h-6 md:w-10 lg:h-8 lg:w-12 xl:h-8 x:w-12 2xl:h-8 2xl:w-12' name='Menu' /></button>
-        <nav class='hidden md:flex lg:flex xl:flex 2xl:flex md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
+        <nav class='hidden md:flex lg:flex xl:flex 2xl:flex md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-8 lg:mr-44 xl:mr-46 2xl:mr-48'>
             <a class='Button' href={header2.Button1Link}>{header2.Button1}</a>
             <a class='Button' href={header2.Button2Link}>{header2.Button2}</a>
             <a class='Button' href={header2.Button3Link}>{header2.Button3}</a>
@@ -67,7 +67,7 @@
         </nav>
         {#if isOpen == true}
         <div class='bg-white text-black fixed flex top-18 left-0 w-[100vw] h-[100vh] z-1'>
-            <nav class='flex flex-col w-100% md:hidden lg:hidden xl:hidden 2xl:hidden md:gap-2 lg:gap-3 xl:gap-3 2xl:gap-3 md:mr-2 lg:mr-44 xl:mr-46 2xl:mr-48'>
+            <nav class='flex flex-col w-100% md:hidden'>
                 <a class='Button-Black' on:click={MenuClose} href={header2.Button1Link}>{header2.Button1}</a>
                 <a class='Button-Black' on:click={MenuClose} href={header2.Button2Link}>{header2.Button2}</a>
                 <a class='Button-Black' on:click={MenuClose} href={header2.Button3Link}>{header2.Button3}</a>
