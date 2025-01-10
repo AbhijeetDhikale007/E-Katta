@@ -24,5 +24,5 @@ export let Services: Type = [
     { Title: 'Useful Links', name1: 'Home', name2: 'About Us', name3: 'Contact Us', url1: '/', url2: '/Aboutus', url3: '/Contactus' },
     { Title: 'Our Services', name1: 'Income Certificate', name2: 'Caste Certificate', name3: 'Pan Card', name4: 'PF (Pension)', url1: '/Services', url2: '/Services', url3: '/Services' },
     { Title: 'Our Services', name1: 'Domicile Certificate', name2: 'Non Creamy Layer', name3: 'Police Verification', name4: 'Vehicle Insurence', url1: '/Services', url2: '/Services', url3: '/Services' },
-    { Title: 'Get In Touch', Icon1: 'Phone', name1: '+91 70402 18626', Icon2: 'WhatsApp', name2: '+91 70402 18626', Icon3: 'Mail', name3: 'ekatta.online@gmail.com', url1: 'tel:+917040218626', url2: 'https://wa.me/+917040218626', url3: 'mailto:ekatta.online@gmail.com' }
+    { Title: 'Get In Touch', Icon1: 'Phone', name1: '+91 70402 18626', Icon2: 'WhatsApp', name2: '+91 70402 18626', Icon3: 'Mail', name3: 'ekatta.online@gmail.com', name4: '+91 70402 18626', url1: 'tel:+917040218626', url2: 'https://wa.me/+917040218626', url3: 'mailto:ekatta.online@gmail.com', url4: 'https://t.me/labhadesanket' }
 ]
