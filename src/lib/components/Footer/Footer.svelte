@@ -26,7 +26,7 @@
             <a class='text-white text-2 md:text-5.8 no-underline' href={about.Location} target='_blank'>{footer.Location}</a>
             {/each}
         </div>
-        <p class='text-white text-2 md:text-4'>{footer.Copyright}</p>
+        <a class='text-white text-2 md:text-4 no-underline hover:text-black' href={footer.AuthorUrl}>{footer.Author}</a>
     </div>
 </footer>
 {/each}
