@@ -14,8 +14,8 @@ Vercel - []()
 
 ## Features
 
--   **Home**: A home page.
--   **Services**: All services provided.
+-   **Home**: A home page showcasing overview of website.
+-   **Services**: Showcasing all services provided.
 -   **About Us**: About details of Ekatta online center.
 -   **Contact Us**: Contact of Ekatta online center.
 
