@@ -19,11 +19,11 @@
         <Services />
     </div>
     <hr class='w-80%'>
-    <div class='flex justify-between items-center gap-6 md:gap-0 w-88% md:w-80%'>
+    <div class='flex justify-between items-center gap-6 md:gap-2 lg:gap-0 w-88% md:w-80%'>
         <div class='flex gap-2 items-center'>
-            <Ico class='h-5 w-5 invert' name='Address' />
+            <Ico class='h-5 w-5 md:h-6 md:h-6 invert' name='Address' />
             {#each AboutEng as about}
-            <a class='text-white text-2 md:text-5.8 no-underline hover:text-black' href={about.Location} target='_blank'>{footer.Location}</a>
+            <a class='text-white text-2 md:text-4 lg:text-5.8 no-underline hover:text-black' href={about.Location} target='_blank'>{footer.Location}</a>
             {/each}
         </div>
         <a class='text-white text-2 md:text-4 Author select-none no-underline hover:text-black' href={footer.AuthorUrl} target="_blank">{footer.Author}</a>
