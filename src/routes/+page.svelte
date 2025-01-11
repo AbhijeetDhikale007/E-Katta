@@ -16,7 +16,7 @@
 <!-- <Header/> -->
 {#each HeadingTitle as heading }
 <Heading Title={heading.Heading1} />
-<img src='BG.jpg' alt="Ekatta Cyber Cafe" class='BG w-92% h-50 md:w-60% h-40 lg:w-78% lg:h-120 rounded-2 md:rounded-4 mt-4'>
+<!-- <img src='BG.jpg' alt="Ekatta Cyber Cafe" class='BG w-92% h-50 md:w-60% h-40 lg:w-78% lg:h-120 rounded-2 md:rounded-4 mt-4'> -->
 <div class='grid w-88%'>
     <p class='text-8 mt-10'>{heading.Heading1Name}</p>
     <div class='flex flex-wrap text-6 py-12 w-80% justify-self-center'>
@@ -31,9 +31,9 @@
 
 <!-- <Footer /> -->
 
-<style lang='scss'>
+<!-- <style lang='scss'>
     .BG {
         background: url(BG.jpg);
         box-shadow: 0 0 10px #000;
     }
-</style>
+</style> -->
