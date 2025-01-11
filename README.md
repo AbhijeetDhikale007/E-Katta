@@ -1,58 +1,53 @@
-# create-svelte
+# Ekatta Online Center
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![Portfolio Screenshot](/static/Screenshot.png)
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+A website for an online cyber cafe (EKatta) using Sveltekit 5, Unocss showcasing all the services provided. It includes header, home, services, contact us, about us and footer.
 
-## Creating a project
+## Published from IDX
 
-If you're seeing this, you've probably already done this step. Congrats!
+- This repository is developed in Google's Project IDX and later on published on GitHub.
+- [Project IDX](https://idx.dev)
+
+## Deployments
+Vercel - []()
+
+## Features
+
+-   **Home**: A home page.
+-   **Services**: All services provided.
+-   **About Us**: About details of Ekatta online center.
+-   **Contact Us**: Contact of Ekatta online center.
+
+## Technologies Used
+
+-   [Svelte 5](https://svelte.dev) - The main framework
+-   [UnoCSS](https://unocss.dev/) - Atomic CSS Engine
+-   [Lenis](https://lenis.darkroom.engineering) - Smooth Scrolling
+-   [SCSS](https://sass-lang.com) - Sassy Cascading Style Sheets. Popular CSS preprocessor Sass (Syntactically Awesome Style Sheets).
+
+## Getting started
+
+1. Clone this repository to your local machine:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/AbhijeetDhikale007/porfolio-svelte-5
 ```
 
-## Developing
+2. NPM Install
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm i
+```
+
+3. To run the development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+Open your web browser and visit http://localhost:3000 to see the website in action during development.
 
-## Building
+## Author
 
-To build your library:
-
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+-   [@AbhijeetDhikale007](https://github.com/AbhijeetDhikale007)
