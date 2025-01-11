@@ -10,7 +10,7 @@ A website for an online cyber cafe (EKatta) using Sveltekit 5, Unocss showcasing
 - [Project IDX](https://idx.dev)
 
 ## Deployments
-Vercel - []()
+Vercel - [Ekatta.vercel.app]()
 
 ## Features
 
