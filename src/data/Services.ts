@@ -22,7 +22,7 @@ export let ServicesEng: Type = [
     { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'PF Withraw', Info: 'PF Withraw' },
     { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'Online Forms', Info: 'All Tyoes of Online Forms' },
     { Img: 'Services/Passport.png', Alt: 'Passport', Title: 'Passport', Info: 'Passport' },
-    { Img: 'Services/E-Gazette.png', Alt: 'E Gazette', Title: 'E Gazette - राजपत्र', Info: 'E Gazette - राजपत्र' },
+    { Img: 'Services/E-Gazette.jpg', Alt: 'E Gazette', Title: 'E Gazette - राजपत्र', Info: 'E Gazette - राजपत्र' },
 ]
 
 export let ServicesMar: Type = [
@@ -46,5 +46,5 @@ export let ServicesMar: Type = [
     { Img: 'Services/PF-Withraw.jpg', Alt: 'PF Withraw', Title: 'पिफ विथड्रॉ', Info: 'पिफ विथड्रॉ' },
     { Img: 'Services/Online-Forms.png', Alt: 'Online Forms', Title: 'ऑनलाइन फॉर्म', Info: 'All Tyoes of ऑनलाइन फॉर्म' },
     { Img: 'Services/Passport.png', Alt: 'Passport', Title: 'पासपोर्ट', Info: 'पासपोर्ट' },
-    { Img: 'Services/E-Gazette.png', Alt: 'E Gazette', Title: 'ई गेझेट - राजपत्र', Info: 'ई गेझेट - राजपत्र' },
+    { Img: 'Services/E-Gazette.jpg', Alt: 'E Gazette', Title: 'ई गेझेट - राजपत्र', Info: 'ई गेझेट - राजपत्र' },
 ]
