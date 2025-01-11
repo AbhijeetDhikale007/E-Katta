@@ -31,7 +31,7 @@ Vercel - [Ekatta.vercel.app]()
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/AbhijeetDhikale007/porfolio-svelte-5
+git clone https://github.com/AbhijeetDhikale007/E-Katta
 ```
 
 2. NPM Install
