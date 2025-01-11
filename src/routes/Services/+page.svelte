@@ -13,7 +13,7 @@
 {#each ServicesHeading as heading}
 <Heading Title={heading.Heading2} />
 <main class='Wrapper'>
-    <div class='flex flex-wrap items-center justify-center gap-4 md:gap-18 py-10 w-100% md:w-90% min-h-100'>
+    <div class='flex flex-wrap items-center justify-center gap-5 md:gap-12 lg:gap-18 py-10 w-100% md:w-90% min-h-100'>
         {#each Services as services}
         <div class='ServiceCard flex flex-col p-2 md:p-4 gap-3 md:gap-5 w-32% min-h-[5vh] md:w-20% md:min-h-[38vh] text-white justify-center items-center rounded-2 md:rounded-4'>
             <img class='w-94% md:min-h-20vh rounded-2' src={services.Img} alt={services.Alt}>
