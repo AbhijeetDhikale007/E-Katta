@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/",
+            "dest": "/Services"
+        },
+        {
+            "src": "/",
+            "dest": "/Aboutus"
+        },
+        {
+            "src": "/",
+            "dest": "/Contactus"
+        }
+    ]
+}
