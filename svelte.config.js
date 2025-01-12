@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const base = '/e-katta';
+const base = '/E-Katta';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
