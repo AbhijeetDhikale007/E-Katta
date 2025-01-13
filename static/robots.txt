@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Allow: /
+Allow: /public/
+
+# Sitemap
+Sitemap: https://e-katta.vercel.app
+Sitemap: https://e-katta.vercel.app/Services
+Sitemap: https://e-katta.vercel.app/Contactus
+Sitemap: https://e-katta.vercel.app/Aboutus
+Sitemap: https://abhijeetdhikale007.vercel.app/sitemap.xml
